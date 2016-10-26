@@ -37,7 +37,7 @@
         android:directBootAware="true">
 
         <activity android:name="StkMain"
-            android:theme="@android:style/Theme.NoDisplay"
+            android:theme="@style/StkListView"
             android:label="@string/app_name"
             android:enabled="false"
             android:exported="true"
@@ -77,7 +77,7 @@
         <activity android:name="StkInputActivity"
             android:label="@string/app_name"
             android:icon="@drawable/ic_launcher_sim_toolkit"
-            android:theme="@android:style/Theme.Material.Light"
+            android:theme="@android:style/Theme.Material.Light.DarkActionBar"
             android:configChanges="orientation|locale|screenSize|keyboardHidden"
             android:exported="false"
             android:taskAffinity="android.task.stk.StkLauncherActivity">
@@ -96,7 +96,7 @@
 
         <activity android:name="ToneDialog"
             android:exported="false"
-            android:theme="@android:style/Theme.Material.Light"
+            android:theme="@android:style/Theme.Material.Dialog"
             android:taskAffinity="android.task.stk.StkLauncherActivity">
         </activity>
 
