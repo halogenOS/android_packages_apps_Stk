@@ -26,6 +26,7 @@
                 android:label="@string/stk_intent_permission"
                 android:protectionLevel="signature">
     </permission>
+    <protected-broadcast android:name="com.android.stk.DIALOG_ALARM_TIMEOUT" />
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.GET_TASKS"/>
